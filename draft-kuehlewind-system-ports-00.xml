@@ -33,13 +33,13 @@
 
  <middle>
    <section title="Introduction">
-       <t>RFC 6335 <xref target="RFC6335"/> requires System Ports, also known as the Well Known Ports, in the range from 0 to 1023, to be assigned by the "IETF Review" or "IESG Approval" procedures <xref target="RFC5226"/>. Further, for assignments done through RFCs published via the "IETF Document Stream" <xref target="RFC4844"/>, the Assignee will be the IESG with the IETF Chair as the Contact. Therefore, all System Ports should be assigned to the IESG.</t>
-       <t>However, ports that have been assigned before the publication of RFC 6335, are currently assigned to indivuduals, even if they are part of the System Port range. Beside the fact that System Ports that are widely used by IETF protocols such be under the control of the IETF, this is especially problematic if the assignment is or should be changed. The Assignee, can change the assignment without confirmation of the IETF. However, if the IETF process requires a change, including deassignment, this cannot be done without the agreement of the orginal Asignee. Further in cases, where the orginal Assignee is not reachable or for any other reason not available anymore, no procedure it defined to change the assignment.</t>
-       <t>This document instructs IANA to re-assign all currently assigned System Ports in the range from 0 to 1023 to the IESG, to align existing entries in the "Service Name and Transport Protocol Port Number Registry" with the current procedures defined in RFC 6335.</t>
+       <t>RFC 6335 <xref target="RFC6335"/> requires System Ports, also known as the Well Known Ports, in the range from 0 to 1023, to be assigned by the "IETF Review" or "IESG Approval" procedures <xref target="RFC5226"/>. Further, for assignments done through RFCs published via the "IETF Document Stream" <xref target="RFC4844"/>, the Assignee will be the IESG with the IETF Chair as the Contact. Therefore, all System Ports must be assigned to the IESG.</t>
+       <t>However, ports that were assigned before the publication of RFC 6335, are often assigned to individuals, even if they are part of the System Port range. Besides the fact that System Ports that are widely used by IETF protocols under IETF change control, this is especially problematic if the assignment is or should be changed. The Assignee, can change the assignment without confirmation of the IETF. However, if the IETF process requires a change, including deassignment, this cannot be done without the agreement of the original Assignee. Furthermore, no procedure is defined to change the assignment in cases where the original Assignee is not reachable or for any other reason not available anymore, </t>
+       <t>This document instructs IANA to re-assign all currently assigned System Ports in the range from 0 to 1023 to the IESG, thus aligning existing entries in the "Service Name and Transport Protocol Port Number Registry" with the current procedures defined in RFC 6335.</t>
    </section>
 
    <section anchor="IANA" title="IANA Considerations">
-    <t>IANA is asked to re-assign all System Ports in the port range from 0 to 1023 that are currently assigned in the "Service Name and Transport Protocol Port Number Registry" to the IESG &lt;iesg@ietf.org&gt; as Asignee and the IETF Chair &lt;chair@ietf.org&gt; as Contact.</t>
+    <t>IANA [will re-assign/has reassigned] all System Ports in the port range from 0 to 1023 that are currently assigned in the "Service Name and Transport Protocol Port Number Registry" to the IESG &lt;iesg@ietf.org&gt; as Asignee and the IETF Chair &lt;chair@ietf.org&gt; as Contact.</t>
     <t>IANA should inform the current Assignees by email with the registered email address about this change. However, IANA does not need to take any actions to inform the current Assignee if the provided email address in not valid anymore, or the Assignee is not reachable anymore with the provided email address.</t>
    </section>
 
@@ -53,7 +53,7 @@
    <references title="Normative References">
      &RFC6335;
    </references>
-   
+
    <references title="Informative References">
      &RFC4844;
      &RFC5226;
