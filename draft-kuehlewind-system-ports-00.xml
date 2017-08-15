@@ -173,7 +173,7 @@
         <c>agentx</c><c>705</c><c>udp</c><c>RFC2741</c><c></c>
     </texttable>
     
-    <t>As part of this maintance effort, IANA [will further added/has further added] the following entry with the IESG as Assignee and the IETF chair as Contact:</t>
+    <t>As part of this maintainance effort, IANA [will further added/has further added] the following entry with the IESG as Assignee and the IETF chair as Contact:</t>
     
     <texttable align="center">
         <ttcol>Service Name</ttcol><ttcol>Port Number</ttcol><ttcol>Transport protocol</ttcol><ttcol>Reference</ttcol>
