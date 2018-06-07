@@ -24,6 +24,12 @@
     	</address>
     </author>
 
+    <author fullname="Sabrina Tanamal" initials="S." role="editor"
+	   surname="Tanamal">
+    	<address>
+    		<email>sabrina.tanamal@iana.org</email>
+    	</address>
+    </author>
    <date year="2018" />
 
    <abstract>
