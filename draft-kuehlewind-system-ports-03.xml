@@ -64,22 +64,7 @@
 
    <section anchor="IANA" title="IANA Considerations">
     <t>IANA [will perform/has performed] action to re-assign all System Ports in the port range from 0 to 1023 that are currently assigned in the "Service Name and Transport Protocol Port Number Registry" (https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml) to the IESG &lt;iesg@ietf.org&gt; as Assignee and the IETF Chair &lt;chair@ietf.org&gt; as Contact. The original Assignee and respective contact information should be preserved as a Assignment note "Originally assigned to $Assignee &lt;$Contact&gt;" where $Assignee is the current value in the Assignee column and $Contact is the current value in the Contact column.</t>
-    <t>To perform the assignment, IANA is requested to contact the current Assignees by email with the registered email address to request the transfer.  If the provided email address is not valid anymore, IANA is requested to report this to the IESG, and the IESG is requested to perform actions, such as sending requests to the ietf@ietf.org mailing list to determine updated contact information.  If these actions do not show success within 4 weeks, the IESG is requested to make a decision about the re-assignment of the port in question.</t>
-    <t>IANA is requested to send the following request to each current Assignees:</t>
-    <t>"Dear $Assignee, We currently have you listed as the assignee for $Port 
-	in the Service Name and Transport Protocol Port Number Registry. This port 
-	is part of the System Ports range which has a registration policy of "IETF Review" 
-	or "IESG Approval" as defined in RFC6335. To enable future documentation in the 
-	RFC series of the protocol in use for this port, we would like to request a 
-	confirmation for a de-assignment of $Port to enable a subsequent re-assignment 
-	to the IESG. This would mean replacing your contact information under the assignee 
-	and contact fields in the registry with the IESG. Your contact information will still 
-	be noted in the registry as the original assignee unless you prefer it removed. 
-	Please let us know if you have any objections to this change or if the port is known 
-	not to be used (anymore), and can be marked as Reserved. If you have information about 
-	a publicly available specification of the protocol in use on the respective port that 
-	is not noted in the registry yet, please let us know, and we'll update the notes in the 
-	registry accordingly."</t>
+    <t>To perform the assignment, IANA is requested to contact the current Assignees by email with the registered email address to request the transfer.  If the provided email address is not valid anymore, IANA is requested to report this to the IESG, and the IESG is requested to perform actions, such as sending requests to the ietf@ietf.org mailing list to determine updated contact information.  If these actions do not show success within 4 weeks, the IESG is requested to make a decision about the re-assignment of the port in question.</t
     <t>If the current Assignee does not agree to the re-assignment or does not reply within four weeks, IANA is requested to inform the IESG which then is requested to make a decision about the re-assignment of the port in question.</t>
     <t>Before the start of this re-assignment process, IANA [will also update/has further updated] the Reference column with the following reference for the listed ports that have a corresponding published RFC that uses this port number, as well as the Assignment Notes column for historic RFCs:</t>
     
@@ -224,7 +209,7 @@
 
    <section anchor="Security" title="Security Considerations">
     <t>This draft instructs IANA to perform actions on the Service Name and Transport Protocol Port Number Registry. It does not change the use of the ports or protocols running on them. Therefore
-        the security of these protocols in not impacted by these changes to the registry.</t>
+        the security of these protocols is not impacted by these changes to the registry.</t>
    </section>
  </middle>
 
