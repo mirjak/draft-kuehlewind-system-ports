@@ -41,10 +41,10 @@
            development that define, re-define, or assign the protocol used for
            the respective port, such as in case of so-far unused UDP ports that
            have been registered together with the respective TCP port.  In these
-           cases the IESG has the change control about the protocol used on the
+           cases the IESG has the change control over the protocol used on the
            port (as described in the corresponding RFC) but change control
-           for the port allocation iis designated to others.  Under existing operational
-	   procedures, this means the original assignee needs to be involved in chnage to
+           for the port allocation is designated to others.  Under existing operational
+	   procedures, this means the original assignee needs to be involved in change to
 	   the port assignment.  As it is not always possible to get
            in touch with the original assignee, particularly because of out-dated
            contact information, this current practice of handling historical allocation of System Ports
