@@ -34,23 +34,23 @@
 
    <abstract>
        <t>In the IANA Service Name and Transport Protocol Port Number Registry,
-           a large number of System Ports is currently assigned to individuals or
+           a large number of System Ports are currently assigned to individuals or
            companies who have registered the port for the use with a certain
            protocol before RFC6335 was published.  For some of these ports, RFCs
            exist that describe the respective protocol; for others, RFCs are under
            development that define, re-define, or assign the protocol used for
-           the respective port, e.g. in case of so-far unused UDP ports that
+           the respective port, such as in case of so-far unused UDP ports that
            have been registered together with the respective TCP port.  In these
            cases the IESG has the change control about the protocol used on the
-           port (as described in the corresponding RFC) but does not have the change control
-           about the port usage itself.  Currently, to transfer the change
-           control to the IESG, the original assignee has to be contacted to
-           initialize this transfer.  As it is not always possible to get
-           in touch with the original assignee, e.g. because of out-dated
-           contact information or other reasons, and the current practice
-           of case-by-case changes does not scale well, this document instructs
-           IANA to perform actions with the goal to reassigns System Ports
-           to the IESG that have been assigned to individuals prior to the
+           port (as described in the corresponding RFC) but change control
+           for the port allocation iis designated to others.  Under existing operational
+	   procedures, this means the original assignee needs to be involved in chnage to
+	   the port assignment.  As it is not always possible to get
+           in touch with the original assignee, particularly because of out-dated
+           contact information, this current practice of handling historical allocation of System Ports
+           does not scale well on a case-by-case basis. To address this, this document instructs
+           IANA to perform actions with the goal to reassign System Ports
+           to the IESG that were assigned to individuals prior to the
            publication of RFC6335, where appropriate.</t>
    </abstract>
  </front>
@@ -63,9 +63,9 @@
    </section>
 
    <section anchor="IANA" title="IANA Considerations">
-    <t>IANA [will perform/has performed] actions with the goal to re-assign System Ports in the port range from 0 to 1023 that are currently assigned in the "Service Name and Transport Protocol Port Number Registry" (https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml) to the IESG &lt;iesg@ietf.org&gt; as Assignee and the IETF Chair &lt;chair@ietf.org&gt; as Contact. The original Assignee and respective contact information should be preserved as an Assignment note "Originally assigned to $Assignee &lt;$Contact&gt;" where $Assignee is the current value in the Assignee column, and $Contact is the current value in the Contact column.</t>
+    <t>IANA [will perform/has performed] actions with the goal to re-assign System Ports in the port range from 0 to 1023 that are currently assigned in the "Service Name and Transport Protocol Port Number Registry" (https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml) to clarify the IESG's responisibility in managing those allocations. When the re-assignment is performd, the contact data for these assignments should be adjusted to refelct the IESG &lt;iesg@ietf.org&gt; as assignee and the IETF Chair &lt;chair@ietf.org&gt; as point of contact. The original assignee and respective contact information should be preserved as a note against the revised assignment data.</t>
     <t>To perform the re-assignment, IANA is requested to contact the current Assignees by email with the registered email address to request the transfer.  If the provided email address is not valid anymore, IANA is requested to report this to the IESG, and the IESG is requested to perform actions, such as sending requests to the ietf@ietf.org mailing list to determine updated contact information.  If these actions do not show success within 4 weeks, the IESG is requested to make a decision about the re-assignment of the port in question.</t>
-    <t>If the current Assignee does not agree to the re-assignment or does not reply within four weeks, IANA is requested to inform the IESG which then is requested to make a decision about the re-assignment of the port in question.</t>
+    <t>If the current assignee does not agree to the re-assignment or does not reply within four weeks, IANA is requested to inform the IESG which then is requested to make a decision about the re-assignment of the port in question.</t>
     <t>Before the start of this re-assignment process, IANA [will also update/has further updated] the Reference column with the following reference for the listed ports that have a corresponding published RFC that uses this port number, as well as the Assignment Notes column for historic RFCs:</t>
     
     <texttable align="center">
