@@ -42,7 +42,7 @@
            the respective port, e.g. in case of so-far unused UDP ports that
            have been registered together with the respective TCP port.  In these
            cases the IESG has the change control about the protocol used on the
-           port (as described in an RFC) but does not have the change control
+           port (as described in the corresponding RFC) but does not have the change control
            about the port usage itself.  Currently, to transfer the change
            control to the IESG, the original assignee has to be contacted to
            initialize this transfer.  As it is not always possible to get
@@ -116,6 +116,10 @@
         <c>cso</c><c>105</c><c>udp</c><c>RFC2378</c><c></c>
         <c>rtelnet</c><c>107</c><c>tcp</c><c>RFC818</c><c>This RFC is historic.</c>
         <c>rtelnet</c><c>107</c><c>udp</c><c>RFC818</c><c>This RFC is historic.</c>
+        <c>pop2</c><c>109</c><c>tcp</c><c>RFC937</c><c>This RFC is historic.</c>
+        <c>pop2</c><c>109</c><c>udp</c><c>RFC937</c><c>This RFC is historic.</c>
+        <c>pop3</c><c>110</c><c>tcp</c><c>RFC1939</c><c></c>
+        <c>pop3</c><c>110</c><c>udp</c><c></c><c></c>
         <c>sunrpc</c><c>111</c><c>tcp</c><c>RFC1833</c><c></c>
         <c>sunrpc</c><c>111</c><c>udp</c><c>RFC1833</c><c></c>
         <c>auth</c><c>113</c><c>tcp</c><c>RFC1413</c><c></c>
@@ -126,8 +130,6 @@
         <c>cfdptkt</c><c>120</c><c>udp</c><c>RFC1235</c><c></c>
         <c>pwdgen</c><c>129</c><c>tcp</c><c>RFC972</c><c></c>
         <c>pwdgen</c><c>129</c><c>udp</c><c>RFC972</c><c></c>
-        <c>imap</c><c>143</c><c>tcp</c><c>RFC3501</c><c></c>
-        <c>imap</c><c>143</c><c>udp</c><c>RFC3501</c><c></c>
         <c>bftp</c><c>152</c><c>tcp</c><c>RFC1068</c><c></c>
         <c>bftp</c><c>152</c><c>udp</c><c>RFC1068</c><c></c>
         <c>sgmp</c><c>153</c><c>tcp</c><c>RFC1028</c><c>This RFC is historic.</c>
@@ -135,7 +137,7 @@
         <c>snmp</c><c>161</c><c>tcp</c><c>RFC3430</c><c></c>
         <c>snmp</c><c>161</c><c>udp</c><c>RFC3417</c><c></c>
         <c>snmptrap</c><c>162</c><c>tcp</c><c>RFC3430</c><c></c>
-                <c>snmptrap</c><c>162</c><c>udp</c><c>RFC3417</c><c></c>
+        <c>snmptrap</c><c>162</c><c>udp</c><c>RFC3417</c><c></c>
         <c>bgp</c><c>179</c><c>tcp</c><c>RFC4271</c><c></c>
         <c>bgp</c><c>179</c><c>udp</c><c>RFC4271</c><c></c>
         <c>irc</c><c>194</c><c>tcp</c><c>RFC1459</c><c></c><!-- This one is strange, because RFC 1459 defines IRC, but proposes no ports. -->
